@@ -1,0 +1,66 @@
+:root {
+  --heading-font-family: "Alice", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: var(--heading-font-family);
+}
+h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+p {
+  margin: 20px 0 20px 0;
+  font-size: 17px;
+  font-family: var(--default-font-family);
+}
+
+img {
+  border-radius: 40px;
+  display: block;
+  margin: 0 auto;
+}
+.about-me {
+  padding: 160px 20px;
+}
+
+.wrapper {
+  background: linear-gradient(300.8deg, #d78870af, rgba(255, 221, 136, 0.28));
+}
+
+.projects-btn {
+  margin: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 25px 40px;
+  border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+  .about-me {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+
+  img {
+    height: 300px;
+    border-radius: 10px;
+  }
+  .projects-btn {
+    margin: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
+}
