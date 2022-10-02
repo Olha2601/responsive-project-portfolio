@@ -7,7 +7,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
+div.container {
   font-family: var(--default-font-family);
 }
 
@@ -19,7 +19,7 @@ h1 {
 .header {
   background: var(--secondary-color);
   text-align: center;
-  padding-bottom: 120px;
+  padding: 60px 0 120px 0;
 }
 
 .header h3 {
@@ -197,6 +197,11 @@ a.btn-branding {
 }
 
 @media (max-width: 900px) {
+  .weather-app-launch {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .about-me {
     text-align: center;
     padding-top: 20px;
