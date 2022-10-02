@@ -4,48 +4,122 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Olha Khorobrykh is a front-end developer based in Europe, check out his projects and contact him for job inquiries"
+    />
+    <title>Front-end developer Olha Khorobrykh</title>
+    <link rel="stylesheet" href="src/styles.css" />
+
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:wght@500&display=swap"
-      rel="stylesheet"
-    />
 
-    <link rel="stylesheet" href="/src/styles.css" />
-    <title>Document</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="about-me container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h1>👋 Hi I am Olha Khorobrykh</h1>
-            <h2>🇺🇦 Front-end developer, based in Europe</h2>
-            <p class="info">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
-            </p>
-            <button type="button" class="btn btn-danger projects-btn">
-              See my projects
-            </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Olha Khorobrykh</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                tilte="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="about.html"
+                class="about-link"
+                title="About Olha Khorobrykh"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                class="contact-link"
+                title="Contact Olha Khorobrykh"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h2 class="mt-5 text-center">👋 Hi I am</h2>
+      <h1 class="text-center">Olha Khorobrykh</h1>
+      <h3 class="text-center">🇺🇦 Front-end developer, based in Europe</h3>
+      <div class="navigation-links">
+        <a href="/about.html#contact" class="contact-link">Contact me</a>
+        <a href="about.html" class="about-link">About me</a>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="src/img/jogging.png"
+            class="img-fluid rounded main-imgs"
+            alt="Jogging project"
+          />
+        </div>
+        <div class="col-md-6 desription">
+          <h2 class="mb-3 main-menu">Jogging app</h2>
+          app Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis
+          quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat
+          explicabo eum dolore.
+          <div class="mt-5">
+            <a href="#" class="primary-link" title="Yoga project"
+              >Launch Jogging App</a
+            >
           </div>
-          <div class="col-lg-6">
-            <img
-              src="/src/img/portfolio-img.JPG"
-              height="550px"
-              alt="portfolio-photo"
-            />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 desription">
+          <h2 class="mb-3 main-menu">Weather app</h2>
+          app Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Perferendis quia, dignissimos nam ratione veniam quibusdam porro omnis
+          quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat
+          explicabo eum dolore.
+          <div class="mt-5">
+            <a href="#" class="primary-link" title="Weather project"
+              >Launch Weather App</a
+            >
           </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="src/img/weatherapp.png"
+            class="img-fluid rounded main-imgs"
+            alt="Weather project"
+          />
         </div>
       </div>
     </div>
